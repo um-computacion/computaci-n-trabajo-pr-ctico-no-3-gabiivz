@@ -1,7 +1,8 @@
 
 from exceptions import ingrese_numero
+from exceptions import NumeroDebeSerPositivo
 
-def ingrese_numero():
+def main():
     pass
     while True:
         try:
