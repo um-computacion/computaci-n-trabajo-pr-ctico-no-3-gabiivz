@@ -2,7 +2,6 @@ class NumeroDebeSerPositivo(Exception):
 
     pass
 
-'''
 def ingrese_numero():
     
     entrada = input("Ingrese un número: ")
@@ -12,4 +11,4 @@ def ingrese_numero():
             raise NumeroDebeSerPositivo("El número debe ser positivo")
         return numero
     except ValueError:
-        raise ValueError("La entrada debe ser un número válido") ''' 
+        raise ValueError("La entrada debe ser un número válido") 
